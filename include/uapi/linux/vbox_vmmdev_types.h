@@ -9,7 +9,7 @@
 #ifndef __UAPI_VBOX_VMMDEV_TYPES_H__
 #define __UAPI_VBOX_VMMDEV_TYPES_H__
 
-#include<uabi/asm-generic/bitsperlong.h>
+#include<asm-generic/bitsperlong.h>
 #include <linux/types.h>
 
 /*

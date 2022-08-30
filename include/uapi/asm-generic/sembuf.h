@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_SEMBUF_H
 #define __ASM_GENERIC_SEMBUF_H
 
-#include<uabi/asm-generic/bitsperlong.h>
+#include<asm-generic/bitsperlong.h>
 
 /*
  * The semid64_ds structure for x86 architecture.

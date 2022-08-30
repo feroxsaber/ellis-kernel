@@ -4,7 +4,7 @@
 
 #include <linux/types.h>
 #include <linux/compiler.h>
-#include<uabi/asm-generic/bitsperlong.h>
+#include<asm-generic/bitsperlong.h>
 #include<uabi/asm-generic/swab.h>
 
 /*

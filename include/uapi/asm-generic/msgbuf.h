@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_MSGBUF_H
 #define __ASM_GENERIC_MSGBUF_H
 
-#include<uabi/asm-generic/bitsperlong.h>
+#include<asm-generic/bitsperlong.h>
 /*
  * generic msqid64_ds structure.
  *
