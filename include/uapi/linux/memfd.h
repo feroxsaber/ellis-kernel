@@ -2,7 +2,7 @@
 #ifndef _UAPI_LINUX_MEMFD_H
 #define _UAPI_LINUX_MEMFD_H
 
-#include<uabi/asm-generic-generic/hugetlb_encode.h>
+#include<uabi/asm-generic/hugetlb_encode.h>
 
 /* flags for memfd_create(2) (unsigned int) */
 #define MFD_CLOEXEC		0x0001U

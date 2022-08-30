@@ -4,7 +4,7 @@
 
 #include <linux/ipc.h>
 #include <linux/errno.h>
-#include<uabi/asm-generic-generic/hugetlb_encode.h>
+#include<uabi/asm-generic/hugetlb_encode.h>
 #ifndef __KERNEL__
 #include <unistd.h>
 #endif
