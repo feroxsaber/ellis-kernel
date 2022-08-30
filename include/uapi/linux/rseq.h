@@ -11,7 +11,7 @@
  */
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 enum rseq_cpu_id_state {
 	RSEQ_CPU_ID_UNINITIALIZED		= -1,

@@ -2,7 +2,7 @@
 #ifndef __LINUX_MATROXFB_H__
 #define __LINUX_MATROXFB_H__
 
-#include <asm/ioctl.h>
+#include<uabi/asm-generic/ioctl.h>
 #include <linux/types.h>
 #include <linux/videodev2.h>
 #include <linux/fb.h>

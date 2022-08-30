@@ -3,7 +3,7 @@
 #define _UAPI_LINUX_ICMPV6_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 struct icmp6hdr {
 

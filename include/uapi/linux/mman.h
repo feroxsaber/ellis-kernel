@@ -2,8 +2,8 @@
 #ifndef _UAPI_LINUX_MMAN_H
 #define _UAPI_LINUX_MMAN_H
 
-#include <asm/mman.h>
-#include <asm-generic/hugetlb_encode.h>
+#include<uabi/asm-generic/mman.h>
+#include<uabi/asm-generic-generic/hugetlb_encode.h>
 
 #define MREMAP_MAYMOVE	1
 #define MREMAP_FIXED	2

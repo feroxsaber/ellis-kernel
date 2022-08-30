@@ -24,7 +24,7 @@
 #define _LINUX_IF_HIPPI_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /*
  *	HIPPI magic constants.

@@ -32,6 +32,6 @@
 /*
  * hypercalls use architecture specific
  */
-#include <asm/kvm_para.h>
+#include<uabi/asm-generic/kvm_para.h>
 
 #endif /* _UAPI__LINUX_KVM_PARA_H */

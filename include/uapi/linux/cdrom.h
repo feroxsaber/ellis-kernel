@@ -13,7 +13,7 @@
 #define _UAPI_LINUX_CDROM_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /*******************************************************
  * As of Linux 2.1.x, all Linux CD-ROM application programs will use this 

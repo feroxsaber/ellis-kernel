@@ -104,7 +104,7 @@ struct seccomp_metadata {
 #define PTRACE_O_MASK		(\
 	0x000000ff | PTRACE_O_EXITKILL | PTRACE_O_SUSPEND_SECCOMP)
 
-#include <asm/ptrace.h>
+#include<uabi/asm-generic/ptrace.h>
 
 
 #endif /* _UAPI_LINUX_PTRACE_H */

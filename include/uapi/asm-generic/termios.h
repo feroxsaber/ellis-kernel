@@ -9,8 +9,8 @@
  * New architectures should not provide their own version.
  */
 
-#include <asm/termbits.h>
-#include <asm/ioctls.h>
+#include<uabi/asm-generic/termbits.h>
+#include<uabi/asm-generic/ioctls.h>
 
 struct winsize {
 	unsigned short ws_row;

@@ -29,7 +29,7 @@
 
 #include <linux/types.h>
 #include <linux/magic.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 #define NILFS_INODE_BMAP_SIZE	7
 

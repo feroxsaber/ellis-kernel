@@ -6,7 +6,7 @@
 
 #ifndef __STRUCT_EXEC_OVERRIDE__
 
-#include <asm/a.out.h>
+#include<uabi/asm-generic/a.out.h>
 
 #endif /* __STRUCT_EXEC_OVERRIDE__ */
 

@@ -5,6 +5,6 @@
 /*
  * Include machine specific syscall numbers
  */
-#include <asm/unistd.h>
+#include<uabi/asm-generic/unistd.h>
 
 #endif /* _LINUX_UNISTD_H_ */

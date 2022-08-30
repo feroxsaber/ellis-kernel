@@ -23,7 +23,7 @@
 #define _UAPI_LINUX_SISFB_H_
 
 #include <linux/types.h>
-#include <asm/ioctl.h>
+#include<uabi/asm-generic/ioctl.h>
 
 /**********************************************/
 /*                   PUBLIC                   */

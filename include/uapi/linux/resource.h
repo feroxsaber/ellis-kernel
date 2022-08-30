@@ -75,7 +75,7 @@ struct rlimit64 {
  * Due to binary compatibility, the actual resource numbers
  * may be different for different linux versions..
  */
-#include <asm/resource.h>
+#include<uabi/asm-generic/resource.h>
 
 
 #endif /* _UAPI_LINUX_RESOURCE_H */

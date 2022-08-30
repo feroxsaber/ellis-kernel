@@ -25,7 +25,7 @@ enum {
 	LO_FLAGS_DIRECT_IO	= 16,
 };
 
-#include <asm/posix_types.h>	/* for __kernel_old_dev_t */
+#include<uabi/asm-generic/posix_types.h>	/* for __kernel_old_dev_t */
 #include <linux/types.h>	/* for __u64 */
 
 /* Backwards compatibility version */

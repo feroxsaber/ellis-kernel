@@ -3,7 +3,7 @@
 #define _UAPI_LINUX_TYPES_H
 
 // Fix "asm/types.h: No such file or directory" compilation error
-//#include <asm/types.h>
+//#include<uabi/asm-generic/types.h>
 #include <uapi/asm-generic/types.h>
 
 #ifndef __ASSEMBLY__

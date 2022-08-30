@@ -4,8 +4,8 @@
 
 #include <linux/types.h>
 #include <linux/compiler.h>
-#include <asm/bitsperlong.h>
-#include <asm/swab.h>
+#include<uabi/asm-generic/bitsperlong.h>
+#include<uabi/asm-generic/swab.h>
 
 /*
  * casts are necessary for constants, because we never know how for sure

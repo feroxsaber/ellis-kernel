@@ -3,7 +3,7 @@
 #define _UAPI__LINUX_ATALK_H__
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 #include <linux/socket.h>
 
 /*

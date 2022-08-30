@@ -34,7 +34,7 @@ struct semid_ds {
 };
 
 /* Include the definition of semid64_ds */
-#include <asm/sembuf.h>
+#include<uabi/asm-generic/sembuf.h>
 
 /* semop system calls takes an array of these. */
 struct sembuf {

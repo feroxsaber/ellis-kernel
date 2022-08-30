@@ -19,7 +19,7 @@
 #define _UAPI_LINUX_TCP_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 #include <linux/socket.h>
 
 struct tcphdr {

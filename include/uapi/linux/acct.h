@@ -18,8 +18,8 @@
 
 #include <linux/types.h>
 
-#include <asm/param.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/param.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /* 
  *  comp_t is a 16-bit "floating" point number with a 3-bit base 8

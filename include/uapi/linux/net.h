@@ -20,7 +20,7 @@
 #define _UAPI_LINUX_NET_H
 
 #include <linux/socket.h>
-#include <asm/socket.h>
+#include<uabi/asm-generic/socket.h>
 
 #define NPROTO		AF_MAX
 

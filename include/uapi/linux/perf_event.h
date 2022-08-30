@@ -17,7 +17,7 @@
 
 #include <linux/types.h>
 #include <linux/ioctl.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /*
  * User-space ABI bits:

@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_SOCKET_H
 #define __ASM_GENERIC_SOCKET_H
 
-#include <asm/sockios.h>
+#include<uabi/asm-generic/sockios.h>
 
 /* For setsockopt(2) */
 #define SOL_SOCKET	1

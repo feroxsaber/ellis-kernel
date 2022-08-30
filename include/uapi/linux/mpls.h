@@ -3,7 +3,7 @@
 #define _UAPI_MPLS_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /* Reference: RFC 5462, RFC 3032
  *

@@ -8,7 +8,7 @@
 #ifndef _UAPI__LINUX_BPF_PERF_EVENT_H__
 #define _UAPI__LINUX_BPF_PERF_EVENT_H__
 
-#include <asm/bpf_perf_event.h>
+#include<uabi/asm-generic/bpf_perf_event.h>
 
 struct bpf_perf_event_data {
 	bpf_user_pt_regs_t regs;

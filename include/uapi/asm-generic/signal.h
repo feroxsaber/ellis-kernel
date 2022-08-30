@@ -94,7 +94,7 @@ typedef struct {
 /* not actually used, but required for linux/syscalls.h */
 typedef unsigned long old_sigset_t;
 
-#include <asm-generic/signal-defs.h>
+#include<uabi/asm-generic-generic/signal-defs.h>
 
 #ifdef SA_RESTORER
 #define __ARCH_HAS_SA_RESTORER

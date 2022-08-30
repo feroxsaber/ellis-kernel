@@ -18,7 +18,7 @@
 #define _UAPI_LINUX_IGMP_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /*
  *	IGMP protocol structures

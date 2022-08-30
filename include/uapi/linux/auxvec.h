@@ -2,7 +2,7 @@
 #ifndef _UAPI_LINUX_AUXVEC_H
 #define _UAPI_LINUX_AUXVEC_H
 
-#include <asm/auxvec.h>
+#include<uabi/asm-generic/auxvec.h>
 
 /* Symbolic values for the entries in the auxiliary table
    put on the initial stack */

@@ -19,7 +19,7 @@ struct ipc_perm
 };
 
 /* Include the definition of ipc64_perm */
-#include <asm/ipcbuf.h>
+#include<uabi/asm-generic/ipcbuf.h>
 
 /* resource get request flags */
 #define IPC_CREAT  00001000   /* create if key is nonexistent */

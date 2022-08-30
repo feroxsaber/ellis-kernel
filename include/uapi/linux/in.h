@@ -295,7 +295,7 @@ struct sockaddr_in {
 #endif
 
 /* <asm/byteorder.h> contains the htonl type stuff.. */
-#include <asm/byteorder.h> 
+#include<uabi/asm-generic/byteorder.h> 
 
 
 #endif /* _UAPI_LINUX_IN_H */

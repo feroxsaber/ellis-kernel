@@ -41,7 +41,7 @@
 #include <linux/types.h>
 #include <linux/string.h>
 #include <linux/tipc.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 #ifndef __KERNEL__
 #include <arpa/inet.h> /* for ntohs etc. */

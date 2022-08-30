@@ -29,7 +29,7 @@
 
 #include <linux/types.h>
 #include <linux/fs.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 typedef __kernel_ulong_t aio_context_t;
 

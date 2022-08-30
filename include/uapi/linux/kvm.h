@@ -11,7 +11,7 @@
 #include <linux/types.h>
 #include <linux/compiler.h>
 #include <linux/ioctl.h>
-#include <asm/kvm.h>
+#include<uabi/asm-generic/kvm.h>
 
 #define KVM_API_VERSION 12
 

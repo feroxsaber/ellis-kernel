@@ -2,7 +2,7 @@
 #ifndef _ASM_GENERIC_ERRNO_H
 #define _ASM_GENERIC_ERRNO_H
 
-#include <asm-generic/errno-base.h>
+#include<uabi/asm-generic-generic/errno-base.h>
 
 #define	EDEADLK		35	/* Resource deadlock would occur */
 #define	ENAMETOOLONG	36	/* File name too long */

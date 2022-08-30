@@ -3,7 +3,7 @@
 #define _UAPI_LINUX_DCCP_H
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /**
  * struct dccp_hdr - generic part of DCCP packet header

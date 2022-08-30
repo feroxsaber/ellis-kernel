@@ -19,7 +19,7 @@
 
 
 #include <linux/types.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 #include <linux/socket.h>
 #include <linux/if.h>

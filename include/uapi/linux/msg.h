@@ -32,7 +32,7 @@ struct msqid_ds {
 };
 
 /* Include the definition of msqid64_ds */
-#include <asm/msgbuf.h>
+#include<uabi/asm-generic/msgbuf.h>
 
 /* message buffer for msgsnd and msgrcv calls */
 struct msgbuf {

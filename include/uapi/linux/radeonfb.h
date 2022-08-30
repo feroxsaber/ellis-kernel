@@ -2,7 +2,7 @@
 #ifndef __LINUX_RADEONFB_H__
 #define __LINUX_RADEONFB_H__
 
-#include <asm/ioctl.h>
+#include<uabi/asm-generic/ioctl.h>
 #include <linux/types.h>
 
 #define ATY_RADEON_LCD_ON	0x00000001

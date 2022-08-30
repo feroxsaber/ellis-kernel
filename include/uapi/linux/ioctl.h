@@ -2,7 +2,7 @@
 #ifndef _LINUX_IOCTL_H
 #define _LINUX_IOCTL_H
 
-#include <asm/ioctl.h>
+#include<uabi/asm-generic/ioctl.h>
 
 #endif /* _LINUX_IOCTL_H */
 

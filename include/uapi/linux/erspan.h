@@ -14,7 +14,7 @@
 #define _UAPI_ERSPAN_H
 
 #include <linux/types.h>	/* For __beXX in userspace */
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /* ERSPAN version 2 metadata header */
 struct erspan_md2 {

@@ -5,7 +5,7 @@
 #include <linux/libc-compat.h>
 #include <linux/types.h>
 #include <linux/in6.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /* The latest drafts declared increase in minimal mtu up to 1280. */
 

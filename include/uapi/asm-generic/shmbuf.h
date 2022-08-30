@@ -2,7 +2,7 @@
 #ifndef __ASM_GENERIC_SHMBUF_H
 #define __ASM_GENERIC_SHMBUF_H
 
-#include <asm/bitsperlong.h>
+#include<uabi/asm-generic/bitsperlong.h>
 
 /*
  * The shmid64_ds structure for x86 architecture.

@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-2.0 WITH Linux-syscall-note */
-#include <asm/bitsperlong.h>
+#include<uabi/asm-generic/bitsperlong.h>
 
 /*
  * This file contains the system call numbers, based on the

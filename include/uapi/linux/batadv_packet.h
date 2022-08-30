@@ -19,7 +19,7 @@
 #ifndef _UAPI_LINUX_BATADV_PACKET_H_
 #define _UAPI_LINUX_BATADV_PACKET_H_
 
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 #include <linux/if_ether.h>
 #include <linux/types.h>
 

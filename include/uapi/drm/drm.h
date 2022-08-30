@@ -39,13 +39,13 @@
 #if defined(__KERNEL__)
 
 #include <linux/types.h>
-#include <asm/ioctl.h>
+#include<uabi/asm-generic/ioctl.h>
 typedef unsigned int drm_handle_t;
 
 #elif defined(__linux__)
 
 #include <linux/types.h>
-#include <asm/ioctl.h>
+#include<uabi/asm-generic/ioctl.h>
 typedef unsigned int drm_handle_t;
 
 #else /* One of the BSDs */

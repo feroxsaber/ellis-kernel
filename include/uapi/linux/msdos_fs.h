@@ -4,7 +4,7 @@
 
 #include <linux/types.h>
 #include <linux/magic.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 /*
  * The MS-DOS filesystem constants/structures

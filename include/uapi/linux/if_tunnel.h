@@ -6,7 +6,7 @@
 #include <linux/if.h>
 #include <linux/ip.h>
 #include <linux/in6.h>
-#include <asm/byteorder.h>
+#include<uabi/asm-generic/byteorder.h>
 
 
 #define SIOCGETTUNNEL   (SIOCDEVPRIVATE + 0)

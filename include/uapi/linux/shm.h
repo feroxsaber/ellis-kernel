@@ -4,7 +4,7 @@
 
 #include <linux/ipc.h>
 #include <linux/errno.h>
-#include <asm-generic/hugetlb_encode.h>
+#include<uabi/asm-generic-generic/hugetlb_encode.h>
 #ifndef __KERNEL__
 #include <unistd.h>
 #endif
@@ -40,7 +40,7 @@ struct shmid_ds {
 };
 
 /* Include the definition of shmid64_ds and shminfo64 */
-#include <asm/shmbuf.h>
+#include<uabi/asm-generic/shmbuf.h>
 
 /*
  * shmget() shmflg values.
