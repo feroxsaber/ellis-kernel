@@ -1,0 +1,55 @@
+#
+# Touchscreen driver configuration
+#
+menuconfig INPUT_TOUCHSCREEN
+	bool "Touchscreens"
+	help
+	  Say Y here, and a list of supported touchscreens will be displayed.
+	  This option doesn't affect the kernel.
+
+	  If unsure, say Y.
+
+if INPUT_TOUCHSCREEN
+
+config TOUCHSCREEN_MTK
+	bool "MediaTek Touch Panel Driver"
+	help
+	  Say Y here if you have MediaTek touch panel.
+
+	  If unsure, say N.
+
+	  To compile this dirver as a module, choose M here: the
+	  module will be called.
+
+config TOUCHSCREEN_MTK_ILITEK_V3_ILI7806S
+	bool "ILITEK_V3_ILI7806S for Mediatek package"
+	default n
+	help
+	  Say Y here if you have ilitek_touch touch panel.
+
+          If unsure, say N.
+	  To compile this dirver as a module, choose M here: the
+	  module will be called.
+
+source "drivers/input/touchscreen/mediatek/ilitek_v3/Kconfig"
+
+config TOUCHSCREEN_MTK_NVT_NT36xxx
+	bool "Novatek NT36xxx host download SPI driver"
+	default n
+	help
+	  Say Y here if you have a Novatek NT36xxx no flash touchscreen connected
+	  to your system by SPI bus.
+
+	  If unsure, say N.
+
+source "drivers/input/touchscreen/mediatek/NT36xxx/Kconfig"
+
+config TOUCHSCREEN_MTK_TP_SEQ_PRE
+	bool "TP seq config"
+	default n
+	help
+          Say Y here if you need set tp seq ahead of LCD
+
+          If unsure, say N.
+
+endif

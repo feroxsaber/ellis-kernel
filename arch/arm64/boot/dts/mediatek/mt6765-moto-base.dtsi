@@ -1,0 +1,35 @@
+/*
+ * Things can done here:
+ * 	Add nodes or properties to root node
+ * 	Delete nodes or properties
+*/
+#include "sgm7220.dtsi"
+#include "tcpc_config.dtsi"
+
+/ {
+	moto_chg_tcmd: moto_chg_tcmd {
+	};
+
+	/delete-node/ tboard_thermistor1;
+	/delete-node/ tboard_thermistor2;
+	/delete-node/ tboard_thermistor3;
+	tboard_thermistor1: thermal-sensor1 {
+	};
+
+	tboard_thermistor2: thermal-sensor2 {
+	};
+
+	tboard_thermistor3: thermal-sensor3 {
+	};
+
+	tboard_thermistor4: thermal-sensor4 {
+	};
+
+        lk_charger: lk_charger {
+             /delete-property/ enable_pe_plus;
+        };
+        charger: charger {
+             /delete-property/ enable_dynamic_mivr;
+        };
+
+};
